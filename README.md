@@ -110,6 +110,17 @@ php tests/run.php
 php -d extension=php_curl.dll tests/online.php
 ```
 
+## 参与贡献
+
+欢迎提 Issue 和 Pull Request。提交 PR 前请先在本地跑一遍自测：
+
+```bash
+php tests/run.php
+php -d extension=php_curl.dll tests/online.php
+```
+
+`Plugin.php` 里三条取数链路（B 站 / YouTube / Vimeo）互相独立，改动其中一条时请在 PR 里说明影响范围。涉及网络请求的改动，请一并说明在受限网络环境下是否仍可用。
+
 ## 许可
 
 MIT
