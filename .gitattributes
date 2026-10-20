@@ -1,0 +1,10 @@
+# 统一以 LF 存储，避免 Windows 上检出时转成 CRLF 产生噪音 diff
+* text=auto eol=lf
+
+*.php text eol=lf
+*.md  text eol=lf
+*.html text eol=lf
+*.css  text eol=lf
+
+*.png binary
+*.zip binary
