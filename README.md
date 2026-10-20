@@ -4,8 +4,6 @@
 
 支持 **哔哩哔哩**、**YouTube**、**Vimeo**。视频信息只抓一次，缓存在数据库里，之后不再请求第三方接口。
 
-![效果预览](preview.png)
-
 ## 特性
 
 - 纯后端渲染，不用前端脚本，静态化缓存也能正常显示
@@ -98,7 +96,6 @@ YouTube 走官方 oEmbed 接口，不受影响。
 TypechoVideoCard/
 ├── Plugin.php        插件主文件（唯一必需文件）
 ├── preview.html      效果预览页（生成物）
-├── preview.png       README 配图
 └── tests/            自测脚本，不参与运行
 ```
 
